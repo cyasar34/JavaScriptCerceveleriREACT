@@ -23,8 +23,8 @@ Ders Bilgileri:
 ## Haftalık ders konuları içerisinde anlatımı gerçekleştirilen kodlar Öğr. Gör. Çisem YAŞAR tarafından oluşturulmuştur.
 
 ## Bu Github paylaşımının IEEE ve APA formatlarınada atıf verilme şekli:
-- IEEE--> C. Yasar, "JavaScriptCerceveleriREACT" GitHub, [Online]. Erişim Linki: https://github.com/cyasar34/JavaScript-Uygulamalari  Son Erişim Tarihi: Gün Ay Yıl.
-- APA--> Yasar, C. (2024). JavaScriptCerceveleriREACT[GitHub Deposu]. GitHub. Erişim Linki: https://github.com/cyasar34/JavaScript-Uygulamalari  Son Erişim Tarihi: Gün Ay Yıl.
+- IEEE--> C. Yasar, "JavaScriptCerceveleriREACT" GitHub, [Online]. Erişim Linki: https://github.com/cyasar34/JavaScriptCerceveleriREACT  Son Erişim Tarihi: Gün Ay Yıl.
+- APA--> Yasar, C. (2026). JavaScriptCerceveleriREACT[GitHub Deposu]. GitHub. Erişim Linki: https://github.com/cyasar34/JavaScriptCerceveleriREACT  Son Erişim Tarihi: Gün Ay Yıl.
 
   
 > **Proje Durumu:** İlgili dokümanların paylaşımı ders kapsamında gerçekleştirilmiştir. GitHub bölümünden beğeni bildirimi olarak bir yıldız vererek çalışmalarımı destekleyebilirsiniz. <br>
