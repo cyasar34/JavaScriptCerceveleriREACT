@@ -1,0 +1,99 @@
+
+/* Google Fonts'tan Space Mono ve DM Sans fontlarını yüklüyoruz */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+body {
+  
+  background-color: #f5f4f0;          
+}
+
+/* ─── Ana Kapsayıcı ─── */
+.app {
+  min-height: 100vh;          /* En az ekran yüksekliği kadar uzasın */
+  padding: 2rem 1rem;         /* Üst-alt: 2rem, sağ-sol: 1rem boşluk */
+  display: flex;              /* Flex düzeni açıyoruz */
+  flex-direction: column;     /* Çocuklar alt alta sıralanıyor */
+  align-items: center;        /* Çocuklar yatayda ortaya hizalanıyor */
+  gap: 1.5rem;                /* Çocuklar arasında 1.5rem boşluk */
+}
+
+/* ─── Selamlama Bileşeni ─── */
+.selamlama {
+  font-size: 40px;                     /* Yazı boyutu */
+  font-weight: 700;                      /* Kalın yazı */
+  background: #ffffff;                   /* Beyaz arka plan */
+  border: 1px solid #e0ddd5;            /* İnce açık gri kenarlık */
+  border-radius: 12px;                   /* Köşeleri yuvarlıyoruz */
+  padding: 1rem 2rem;                    /* İç boşluk: üst-alt 1rem, sağ-sol 2rem */
+  width: 100%;                           /* Tam genişlik kaplasın */
+  max-width: 480px;                      /* En fazla 480px genişlik */
+  text-align: center;                    /* Yazıyı ortaya hizalıyoruz */
+  color: #1a1a1a;                        /* Neredeyse siyah yazı rengi */
+}
+
+.selamlama span {
+  color: green;  /* Span içindeki ismi yeşil yapıyoruz */
+}
+
+/* ─── Sayaç Kartı ─── */
+.sayac-card {
+  background: white;         /* Beyaz arka plan */
+  border: 1px solid #e0ddd5;  /* İnce açık gri kenarlık */
+  border-radius: 12px;         /* Köşeleri yuvarlıyoruz */
+  padding: 1.5rem 2rem;        /* İç boşluk */
+  width: 100%;                 /* Tam genişlik */
+  max-width: 480px;            /* En fazla 480px */
+  display: flex;               /* Flex düzeni */
+  flex-direction: column;      /* Çocuklar alt alta */
+  align-items: center;         /* Yatayda ortala */
+  gap: 1.25rem;                /* Elemanlar arası boşluk */
+}
+
+.sayac-label {
+  font-size: 13px;             /* Küçük yazı boyutu */
+  color: #888780;              /* Soluk gri renk */
+  text-transform: uppercase;   /* Büyük harfe çeviriyoruz */
+  font-weight: 500;            /* Orta kalınlık */
+}
+
+.sayac-deger {
+  font-size: 80px;            
+  font-weight: 700;            /* Kalın */
+  color: #1a1a1a;              /* Varsayılan: neredeyse siyah */
+  line-height: 1;              /* Satır yüksekliği = font boyutu (sıkı) */
+  text-align: center;          /* Ortala */
+}
+
+.sayac-deger.pozitif { color: green; }  /* Pozitif sayı → yeşil */
+.sayac-deger.negatif { color: orange; }  /* Negatif sayı → turuncu */
+
+/* ─── Butonlar ─── */
+.butonlar {
+  display: flex;   /* Butonları yan yana diziyoruz */
+  gap: 8px;        /* Butonlar arası 8px boşluk */
+  width: 100%;     /* Kartın tüm genişliğini kaplasın */
+}
+
+.btn {
+  flex: 1;                     /* Her buton eşit genişlikte */
+  padding: 10px;               /* İç boşluk */
+  border: 1px solid #e0ddd5;  /* İnce kenarlık */
+  border-radius: 8px;          /* Köşe yuvarlama */
+  background: #ffffff;         /* Beyaz arka plan */
+  font-weight: 700;            /* Kalın */
+  cursor: pointer;             /* Fare üzerine gelince el işareti */
+}
+
+.btn.artir  { color: #178F66; border-color: #9FE1CB; }  /* Artır: yeşil yazı + yeşil kenarlık */
+.btn.azalt  { color: #D85A30; border-color: #F5C4B3; }  /* Azalt: turuncu yazı + turuncu kenarlık */
+.btn.sifirla { color: #888780; }            /* Sıfırla: gri yazı */
+
+/* ─── Alt Bilgi ─── */
+.alt-bilgi {
+  font-size: 12px;             /* Küçük yazı */
+  color: #aaa;                 /* Açık gri renk */
+  text-align: center;          /* Ortala */
+  padding: 0.5rem;             /* Az iç boşluk */
+}
